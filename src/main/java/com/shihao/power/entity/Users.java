@@ -14,7 +14,7 @@ import java.util.List;
  * 实现UserDetails接口，用户实体被springSecurity所管理
  */
 @Entity
-public class User implements UserDetails {
+public class Users implements UserDetails {
 
     private static final long serialVersionUID = 1L;
 
