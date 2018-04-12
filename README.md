@@ -1,2 +1,2 @@
-# power_manage
-This is an example of the Java privilege management module
+Springboot项目开发权限管理
+========================
