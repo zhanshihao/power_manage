@@ -38,7 +38,7 @@
             <p class="bg-info" th:text=""></p>
         </div>
         <div sec:authorize="hasRole('ROLE_USER')">
-            <p class="bg-info">无更多显示信息</p>
+            <p class="bg-info">无更多显示</p>
         </div>
         <form th:action="@{/logout}" method="post">
             <input type="submit" class="btn btn-primary" value="注销"/>
